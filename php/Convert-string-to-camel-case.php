@@ -24,9 +24,3 @@ function toCamelCase($str){
 
   return $resString;
 }
-
-
-echo "<pre>";
-var_dump($splitString);
-print_r(toCamelCase("the_stealth_warrior"));
-echo "</pre>";
